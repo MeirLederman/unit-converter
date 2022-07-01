@@ -1,0 +1,96 @@
+html, body {
+    background: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
+
+span {
+    color: #fff;
+}
+
+
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.topbox{
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+.topnumber{  
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+}
+
+
+.bottombox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 25px;
+    background: #1F2937;
+    text-align: center; 
+    width: 500px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.t-answer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px; 
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+.l-answer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D2D2D2;
+}
+
+
+input[type=number] {
+    background: transparent;
+    color: #fff;
+    padding: 0px 25px;
+    margin: 5px 5px;
+    border: 0px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    border-bottom: 1px solid white;
+    transition: width 0.4s ease-in-out;
+    width: 50%;
+}
+
+input[type=number]:focus {
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 55%;
+
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
